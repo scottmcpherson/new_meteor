@@ -6,7 +6,7 @@
 	id: "header"
 
 	initialize: ()->
-		Template.header.events
+		Template.header.events = 
 			"click a": (e)->
 				App.router.aReplace(e)
 
